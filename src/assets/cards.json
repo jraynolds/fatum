@@ -1,0 +1,851 @@
+[
+	{
+		"name": "class",
+		"color": "gold",
+		"icon": "sword-cross",
+		"cards": [
+			{
+				"name": "cleric"
+			},
+			{
+				"name": "paladin"
+			},
+			{
+				"name": "blood hunter"
+			},
+			{
+				"name": "wizard"
+			},
+			{
+				"name": "rogue"
+			},
+			{
+				"name": "artificer"
+			},
+			{
+				"name": "ranger"
+			},
+			{
+				"name": "druid"
+			},
+			{
+				"name": "monk"
+			},
+			{
+				"name": "barbarian"
+			},
+			{
+				"name": "fighter"
+			},
+			{
+				"name": "bard"
+			},
+			{
+				"name": "sorcerer"
+			},
+			{
+				"name": "warlock"
+			}
+		]
+	},
+	{
+		"name": "background",
+		"color": "blue",
+		"icon": "book-open-page-variant",
+		"cards": [
+			[
+				{
+					"name": "king"
+				},
+				{
+					"name": "queen"
+				}
+			],
+			[
+				{
+					"name": "doctor"
+				},
+				{
+					"name": "assassin"
+				}
+			],
+			[
+				{
+					"name": "bulwark"
+				},
+				{
+					"name": "bandit"
+				}
+			],
+			[
+				{
+					"name": "dragon"
+				},
+				{
+					"name": "dragon"
+				}
+			],
+			[
+				{
+					"name": "investigator"
+				},
+				{
+					"name": "artist"
+				}
+			],
+			[
+				{
+					"name": "judge"
+				},
+				{
+					"name": "anarchist"
+				}
+			],
+			[
+				{
+					"name": "angel"
+				},
+				{
+					"name": "demon"
+				}
+			],
+			[
+				{
+					"name": "masked guardian"
+				},
+				{
+					"name": "changeling"
+				}
+			],
+			[
+				{
+					"name": "deity"
+				},
+				{
+					"name": "fallen divinity"
+				}
+			],
+			[
+				{
+					"name": "merchant"
+				},
+				{
+					"name": "vagabond"
+				}
+			],
+			[
+				{
+					"name": "magic item owner"
+				},
+				{
+					"name": "intelligent item"
+				}
+			],
+			[
+				{
+					"name": "monster hunter"
+				},
+				{
+					"name": "monster"
+				}
+			],
+			[
+				{
+					"name": "politician"
+				},
+				{
+					"name": "diplomat"
+				}
+			],
+			[
+				{
+					"name": "soldier"
+				},
+				{
+					"name": "mercenary"
+				}
+			],
+			[
+				{
+					"name": "lord"
+				},
+				{
+					"name": "vassal"
+				}
+			],
+			[
+				{
+					"name": "time keeper"
+				},
+				{
+					"name": "record-keeper"
+				}
+			],
+			[
+				{
+					"name": "naive hero"
+				},
+				{
+					"name": "jaded hero"
+				}
+			],
+			[
+				{
+					"name": "necromancer"
+				},
+				{
+					"name": "ghost"
+				}
+			]
+		],
+		"reversible": true
+	},
+	{
+		"name": "bond",
+		"color": "red",
+		"icon": "handshake",
+		"cards": [
+			[
+				{
+					"name": "chief",
+					"questions": [
+						{
+							"name": "who?",
+							"colors": [ "gold", "blue", "red" ]
+						}
+					]
+				},
+				{
+					"name": "henchman",
+					"questions": [
+						{
+							"name": "who?",
+							"colors": [ "gold", "blue", "red" ]
+						}
+					]
+				}
+			],
+			[
+				{
+					"name": "former lover",
+					"questions": [
+						{
+							"name": "who?",
+							"colors": [ "gold", "blue", "red" ]
+						}
+					]
+				},
+				{
+					"name": "lover",
+					"questions": [
+						{
+							"name": "who?",
+							"colors": [ "gold", "blue", "red" ]
+						}
+					]
+				}
+			],
+			[
+				{
+					"name": "daughter",
+					"questions": [
+						{
+							"name": "who?",
+							"colors": [ "gold", "blue" ]
+						}
+					]
+				},
+				{
+					"name": "son",
+					"questions": [
+						{
+							"name": "who?",
+							"colors": [ "gold", "blue" ]
+						}
+					]
+				}
+			],
+			[
+				{
+					"name": "apprentice",
+					"questions": [
+						{
+							"name": "who?",
+							"colors": [ "gold", "blue", "red" ]
+						}
+					]
+				},
+				{
+					"name": "master",
+					"questions": [
+						{
+							"name": "who?",
+							"colors": [ "gold", "blue", "red" ]
+						}
+					]
+				}
+			],
+			[
+				{
+					"name": "ally",
+					"questions": [
+						{
+							"name": "who?",
+							"colors": [ "gold", "blue", "red" ]
+						}
+					]
+				},
+				{
+					"name": "enemy",
+					"questions": [
+						{
+							"name": "who?",
+							"colors": [ "gold", "blue", "red" ]
+						}
+					]
+				}
+			],
+			[
+				{
+					"name": "father",
+					"questions": [
+						{
+							"name": "who?",
+							"colors": [ "gold", "blue" ]
+						}
+					]
+				},
+				{
+					"name": "mother",
+					"questions": [
+						{
+							"name": "who?",
+							"colors": [ "gold", "blue" ]
+						}
+					]
+				}
+			],
+			[
+				{
+					"name": "brother",
+					"questions": [
+						{
+							"name": "who?",
+							"colors": [ "gold", "blue" ]
+						}
+					]
+				},
+				{
+					"name": "sister",
+					"questions": [
+						{
+							"name": "who?",
+							"colors": [ "gold", "blue" ]
+						}
+					]
+				}
+			]
+		],
+		"reversible": true
+	},
+	{
+		"name": "event",
+		"color": "purple",
+		"icon": "calendar",
+		"cards": [
+			[
+				{
+					"name": "wealth",
+					"questions": [
+						{
+							"name": "why?",
+							"colors": [ "purple" ]
+						}
+					]
+				},
+				{
+					"name": "bankruptcy",
+					"questions": [
+						{
+							"name": "why?",
+							"colors": [ "purple" ]
+						}
+					]
+				}
+			],
+			[
+				{
+					"name": "love",
+					"questions": [
+						{
+							"name": "who?",
+							"colors": [ "gold", "blue", "red" ]
+						}
+					]
+				},
+				{
+					"name": "hate",
+					"questions": [
+						{
+							"name": "who?",
+							"colors": [ "gold", "blue", "red" ]
+						}
+					]
+				}
+			],
+			[
+				{
+					"name": "reward",
+					"questions": [
+						{
+							"name": "who?",
+							"colors": [ "gold", "blue", "red" ]
+						},
+						{
+							"name": "why?",
+							"colors": [ "purple" ]
+						}
+					]
+				},
+				{
+					"name": "revenge",
+					"questions": [
+						{
+							"name": "who?",
+							"colors": [ "gold", "blue", "red" ]
+						},
+						{
+							"name": "why?",
+							"colors": [ "purple" ]
+						}
+					]
+				}
+			],
+			[
+				{
+					"name": "betray",
+					"questions": [
+						{
+							"name": "who?",
+							"colors": [ "gold", "blue", "red" ]
+						}
+					]
+				},
+				{
+					"name": "be betrayed",
+					"questions": [
+						{
+							"name": "who?",
+							"colors": [ "gold", "blue", "red" ]
+						}
+					]
+				}
+			],
+			[
+				{
+					"name": "secret",
+					"questions": [
+						{
+							"name": "about?",
+							"colors": [ "gold", "blue", "red", "purple", "green" ]
+						}
+					]
+				},
+				{
+					"name": "legend",
+					"questions": [
+						{
+							"name": "about?",
+							"colors": [ "gold", "blue", "red", "purple", "green" ]
+						}
+					]
+				}
+			],
+			[
+				{
+					"name": "friendship",
+					"questions": [
+						{
+							"name": "who?",
+							"colors": [ "gold", "blue", "red" ]
+						}
+					]
+				},
+				{
+					"name": "rivalry",
+					"questions": [
+						{
+							"name": "who?",
+							"colors": [ "gold", "blue", "red" ]
+						}
+					]
+				}
+			],
+			[
+				{
+					"name": "redemption",
+					"questions": [
+						{
+							"name": "by?",
+							"colors": [ "gold", "blue", "red", "purple", "green" ]
+						}
+					]
+				},
+				{
+					"name": "corruption",
+					"questions": [
+						{
+							"name": "by?",
+							"colors": [ "gold", "blue", "red", "purple", "green" ]
+						}
+					]
+				}
+			],
+			[
+				{
+					"name": "give help",
+					"questions": [
+						{
+							"name": "to whom?",
+							"colors": [ "gold", "blue", "red" ]
+						}
+					]
+				},
+				{
+					"name": "be helped",
+					"questions": [
+						{
+							"name": "by whom?",
+							"colors": [ "gold", "blue", "red" ]
+						}
+					]
+				}
+			],
+			[
+				{
+					"name": "fame",
+					"questions": [
+						{
+							"name": "where?",
+							"colors": [ "green" ]
+						},
+						{
+							"name": "why?",
+							"colors": [ "purple" ]
+						}
+					]
+				},
+				{
+					"name": "shame",
+					"questions": [
+						{
+							"name": "where?",
+							"colors": [ "green" ]
+						},
+						{
+							"name": "why?",
+							"colors": [ "purple" ]
+						}
+					]
+				}
+			],
+			[
+				{
+					"name": "self sacrifice",
+					"questions": [
+						{
+							"name": "for?",
+							"colors": [ "gold", "blue", "red" ]
+						}
+					]
+				},
+				{
+					"name": "cowardly retreat",
+					"questions": [
+						{
+							"name": "from?",
+							"colors": [ "gold", "blue", "red" ]
+						}
+					]
+				}
+			],
+			[
+				{
+					"name": "romance",
+					"questions": [
+						{
+							"name": "who?",
+							"colors": [ "gold", "blue", "red" ]
+						}
+					]
+				},
+				{
+					"name": "separation",
+					"questions": [
+						{
+							"name": "who?",
+							"colors": [ "gold", "blue", "red" ]
+						}
+					]
+				}
+			],
+			[
+				{
+					"name": "victory",
+					"questions": [
+						{
+							"name": "over whom?",
+							"colors": [ "gold", "blue", "red" ]
+						},
+						{
+							"name": "where?",
+							"colors": [ "green" ]
+						}
+					]
+				},
+				{
+					"name": "defeat",
+					"questions": [
+						{
+							"name": "by whom?",
+							"colors": [ "gold", "blue", "red" ]
+						},
+						{
+							"name": "where?",
+							"colors": [ "green" ]
+						}
+					]
+				}
+			],
+			[
+				{
+					"name": "quest",
+					"questions": [
+						{
+							"name": "about?",
+							"colors": [ "gold", "blue", "red", "green" ]
+						}
+					]
+				},
+				{
+					"name": "training",
+					"questions": [
+						{
+							"name": "about?",
+							"colors": [ "gold", "blue", "red", "green" ]
+						}
+					]
+				}
+			],
+			[
+				{
+					"name": "duty",
+					"questions": [
+						{
+							"name": "to whom?",
+							"colors": [ "gold", "blue", "red" ]
+						}
+					]
+				},
+				{
+					"name": "debt",
+					"questions": [
+						{
+							"name": "to whom?",
+							"colors": [ "gold", "blue", "red" ]
+						}
+					]
+				}
+			],
+			[
+				{
+					"name": "rise",
+					"questions": [
+						{
+							"name": "why?",
+							"colors": [ "purple" ]
+						}
+					]
+				},
+				{
+					"name": "fall",
+					"questions": [
+						{
+							"name": "why?",
+							"colors": [ "purple" ]
+						}
+					]
+				}
+			],
+			[
+				{
+					"name": "death",
+					"questions": [
+						{
+							"name": "who?",
+							"colors": [ "gold", "blue", "red" ]
+						},
+						{
+							"name": "murderer",
+							"colors": [ "gold", "blue", "red" ]
+						},
+						{
+							"name": "where?",
+							"colors": [ "green" ]
+						}
+					]
+				},
+				{
+					"name": "resurrection",
+					"questions": [
+						{
+							"name": "who?",
+							"colors": [ "gold", "blue", "red" ]
+						},
+						{
+							"name": "revivee",
+							"colors": [ "gold", "blue", "red" ]
+						},
+						{
+							"name": "why?",
+							"colors": [ "purple" ]
+						}
+					]
+				}
+			],
+			[
+				{
+					"name": "reward",
+					"questions": [
+						{
+							"name": "who?",
+							"colors": [ "gold", "blue", "red" ]
+						},
+						{
+							"name": "why?",
+							"colors": [ "purple" ]
+						}
+					]
+				},
+				{
+					"name": "revenge",
+					"questions": [
+						{
+							"name": "who?",
+							"colors": [ "gold", "blue", "red" ]
+						},
+						{
+							"name": "why?",
+							"colors": [ "purple" ]
+						}
+					]
+				}
+			]
+		],
+		"reversible": true
+	},
+	{
+		"name": "place",
+		"color": "green",
+		"icon": "map-marker",
+		"cards": [
+			[
+				{
+					"name": "ship"
+				},
+				{
+					"name": "port"
+				}
+			],
+			[
+				{
+					"name": "temple"
+				},
+				{
+					"name": "ceremony"
+				}
+			],
+			[
+				{
+					"name": "forest"
+				},
+				{
+					"name": "mountain"
+				}
+			],
+			[
+				{
+					"name": "palace"
+				},
+				{
+					"name": "castle"
+				}
+			],
+			[
+				{
+					"name": "heaven"
+				},
+				{
+					"name": "hell"
+				}
+			],
+			[
+				{
+					"name": "glacier"
+				},
+				{
+					"name": "desert"
+				}
+			],
+			[
+				{
+					"name": "home"
+				},
+				{
+					"name": "inn"
+				}
+			],
+			[
+				{
+					"name": "prison"
+				},
+				{
+					"name": "dungeon"
+				}
+			],
+			[
+				{
+					"name": "island"
+				},
+				{
+					"name": "sea"
+				}
+			],
+			[
+				{
+					"name": "land of the past"
+				},
+				{
+					"name": "land of the future"
+				}
+			],
+			[
+				{
+					"name": "village"
+				},
+				{
+					"name": "city"
+				}
+			],
+			[
+				{
+					"name": "ruins"
+				},
+				{
+					"name": "cave"
+				}
+			]
+		],
+		"reversible": true
+	}
+]
