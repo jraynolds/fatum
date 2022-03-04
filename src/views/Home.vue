@@ -264,7 +264,7 @@ export default {
 			let i = 0;
 			let prevI = 0;
 			for (let list of lists) {
-				i += list.length;
+				i += list.cards.length;
 				if (index < i) {
 					return { item: list.cards[index - prevI], list };
 				}
